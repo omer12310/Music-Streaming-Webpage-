@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" type="text/css" href="aesthetics.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            a{
+            text-decoration: none;
+            display: inline;
+            padding: 8px 16px;
+             }
+        
+            a:hover {
+            background-color: #ddd;
+            color: black;
+             }
+        
+           .previous {
+            background-color: black;
+            color: white;
+            display: inline;
+            }
+        
+            .next {
+            background-color: black ;
+            color: white;
+            display: inline;
+                }
+             .round {
+            border-radius: 50%;
+             }
+            .navbar{
+            background-color: #1F1F1F;
+                }
+
+            .prenext-button {
+                margin-top: 1.4rem;
+    
+            }
+            .search-bar{
+                margin-top: 1rem;
+                position: absolute;
+                right: 30rem;
+            }
+            .Login-Button{
+                margin-top: 1.4rem;
+            }
+            .dropdown{
+                margin-top: 1.4rem;
+                margin-bottom: 0.5rem;
+                
+            }
+            </style>
+    </head>
+    <body>
+    
+        <nav class="navbar">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navig">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>  
+                        <div class="prenext-button">
+                     <a href="#" class="previous round">&#8249;</a>
+                     <a href="#" class="next round">&#8250;</a>
+                    </div>
+                        
+                    </div>
+                    <div class="collapse navbar-collapse" id="navig">
+                        <ul class="nav navbar-nav navbar-right">
+                         <div class="dropdown">
+                           <a class="dropdown" type="button" data-toggle="dropdown"><a href="#">ProfileName</a><span class="caret"></span></a>
+                           <ul class="dropdown-menu">
+                             <li><a href="#">Profile</a></li>
+                             <li><a href="#">Account</a></li>
+                             <li><a href="#">Logout</a></li>
+                           </ul>
+                         </div>
+                        </ul>
+                    </div>
+                </div>
+        </nav>     
+    </body>
+    
+</html>
